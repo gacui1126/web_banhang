@@ -1,0 +1,222 @@
+
+h3{
+  margin-top: 50px;
+  text-align: center;
+  color: #93899e;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+ul.admin_list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.admin_list li{
+  float: left;
+  margin: 5px;
+}
+ul.admin_list li a{
+  border-radius: 10px;
+  padding: 4px 7px;
+  color: #3f3918;
+  background: linear-gradient(to right, #b0e9bc, #9faae0); 
+}
+ul.admin_list li a:hover{
+  background: linear-gradient(to right, #e68ea0, #7c83aa); 
+}
+.clear{
+  clear: both;
+}
+h3.title_admin{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(54, 124, 101);
+}
+.wrapper{
+  background: rgb(235, 228, 202);
+  border-radius: 10px;
+  border: 1px solid rgb(235, 228, 202);
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+}
+.menu-admin{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.to {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: minmax(100px,auto);
+}
+
+.form-login{
+  border: 1px solid #89912500;
+  grid-column: 6/9;
+  grid-row: 3;
+  height: 360px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 0px 14px 0px rgb(99, 42, 42);
+  background-color: rgb(245, 233, 233);
+  margin-bottom: 100px;
+  /* background: linear-gradient(45deg, #b3e2bb, #aec485); */
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+i.fab.fa-app-store-ios {
+  display: block;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+label {
+  margin-left: -126px;
+  display: block;
+  font-weight: lighter;
+
+}
+input[type="password"]{
+  border-radius: 10px;
+  padding: 5px;
+  width: 70%;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 70%;
+}
+input.submit-login {
+  padding: 7px;
+  width: 50%;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  bottom: 60px;
+  cursor: pointer;
+  background: linear-gradient(to right, #acdada, #085f61);
+}
+
+input.submit-login:hover{
+
+  background: linear-gradient(to right, #c8cf9d, #6f7cc0); 
+}
+
+
+
+.blue { color: #185875; }
+.yellow { color: #FFF842; }
+.container th{
+  font-weight: bold;
+  font-size: 1em;
+  color: #691075;
+}
+.container td {
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #758dcf;
+  -moz-box-shadow: 0 2px 2px -2px #758dcf;
+  box-shadow: 0 2px 2px -2px #758dcf;
+}
+.container {
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+.container tr:nth-child(odd) {
+  background-color: #d2db92;
+}
+.container tr:nth-child(even) {
+  background-color: #cfab75;
+}
+.container th {
+  background-color: #75cfbc;
+}
+.container td:first-child { color: #974550; }
+
+td.thendanhmuc {
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+  background: rgb(212, 216, 159);
+  color: rgb(6, 63, 44);
+}
+input.input-themdanhmuc {
+  background: cadetblue;
+  color: #0a0e1a;
+}
+input.submit_danhmucsp{
+  margin-left: 500px;
+  padding: 4px;
+  width: 17%;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(to right, #df9ce0, #64d8da);
+}
+input.submit_danhmucsp:hover{
+  background: linear-gradient(to right, #ba84bb, #c6d820);
+}
+
+.table-themsp{
+  border-radius: 10px;
+  margin-left: 60px;
+  text-align: center;
+  background: rgb(199, 172, 154);
+}
+.table-themsp tr td{
+  border-radius: 10px;
+  background: rgb(142, 164, 206);
+}
+input[type="text"]{
+  background: #aef0e1;
+  border-radius: 10px;
+}
+textarea {
+  width: 98%;
+  border-radius: 10px;
+  margin-top: 5px;
+  background: url();
+}
+.table-themsp tr td select{
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 4px;
+  background: linear-gradient(to right, #bbba84, #95cfdd);
+}
+
+.submit-themsp{
+  border: 2px solid #93899e;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #daa0c1, #8ac792);
+}
+.submit-themsp:hover{
+  background: linear-gradient(to right, #a4bbcf, #c78a92);
+}
+.submit-themsp.visited{
+  background: linear-gradient(to right, #a4bbcf, #c78a92);
+}
+.submit-sua{
+  cursor: pointer;
+  margin-left: 500px;
+  background: linear-gradient(to right, #a4bbcf, #c78a92);
+  border-radius: 10px;
+  padding: 4px;
+  border: 2px solid #93899e;
+}
+.submit-sua:hover{
+  background: linear-gradient(to right, #dad392, #8a90c7);
+}
